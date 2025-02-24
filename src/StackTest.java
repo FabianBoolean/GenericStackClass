@@ -8,7 +8,6 @@ public class StackTest {
 
     /**
      * Main method to run the stack test.
-     *
      * @param args the command line arguments (not used)
      */
     public static void main(String[] args) {

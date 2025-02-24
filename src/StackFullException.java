@@ -6,7 +6,6 @@
 public class StackFullException extends Exception {
     /**
      * Constructs a new StackFullException with the specified detail message.
-     *
      * @param message the detail message
      */
     public StackFullException(String message) {

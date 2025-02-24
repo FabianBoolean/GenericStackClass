@@ -6,7 +6,6 @@
 public class StackEmptyException extends Exception {
     /**
      * Constructs a new StackEmptyException with the specified detail message.
-     *
      * @param message the detail message
      */
     public StackEmptyException(String message) {

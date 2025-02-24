@@ -20,7 +20,6 @@ public class Stack<T> {
 
     /**
      * Constructor with custom capacity.
-     *
      * @param capacity the capacity of the stack
      */
     public Stack(int capacity) {
@@ -31,7 +30,6 @@ public class Stack<T> {
 
     /**
      * Adds an element to the stack.
-     *
      * @param item the element to be pushed onto the stack
      * @throws StackFullException if the stack is full
      */
@@ -44,7 +42,6 @@ public class Stack<T> {
 
     /**
      * Removes and returns the last element from the stack.
-     *
      * @return the element at the top of the stack
      * @throws StackEmptyException if the stack is empty
      */
@@ -58,7 +55,6 @@ public class Stack<T> {
 
     /**
      * Returns the last element from the stack without removing it.
-     *
      * @return the element at the top of the stack
      * @throws StackEmptyException if the stack is empty
      */
@@ -71,7 +67,6 @@ public class Stack<T> {
 
     /**
      * Lists all elements in the stack as a concatenated string.
-     *
      * @return a string representing all elements in the stack
      */
     public String list() {
